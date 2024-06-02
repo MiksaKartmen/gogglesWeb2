@@ -1,0 +1,347 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>Goggles Ecommerce Category Bootstrap responsive Web Template | Shop :: w3layouts</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="men eyewear, women eyewear, glasses, Goggles, Ray-Ban, sunglasses"/>
+	<meta name="description" content="Welcome to Goggles, the best shop for eyewear!" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="css/login_overlay.css" rel='stylesheet' type='text/css' />
+	<link href="css/style6.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="css/shop.css" type="text/css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/owl.theme.css" type="text/css" media="all">
+	
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link href="css/fontawesome-all.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/c5f484dfcd.js" crossorigin="anonymous"></script>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+	
+</head>
+
+
+
+<body>
+	<div id="loader-wrapper">
+		<img src="images/preloaderapp.gif" alt="Loading...">
+		<h2>Loading Glasses...</h2>
+	</div>
+	<div class="banner-top container-fluid" id="home">
+		<!-- header -->
+		<header>
+			<div class="row">
+				<div class="col-md-3 top-info text-left mt-lg-4">
+					<h6>Need Help</h6>
+					<ul>
+						<li>
+							<i class="fas fa-phone"></i> Call</li>
+						<li class="number-phone mt-3">+381 616996699</li>
+					</ul>
+				</div>
+				<div class="col-md-6 logo-w3layouts text-center">
+					<h1 class="logo-w3layouts">
+						<a class="navbar-brand" href="index.html">
+							Goggles </a>
+					</h1>
+				</div>
+
+				<div class="col-md-3 top-info-cart text-right mt-lg-4">
+					
+					<button class="top_googles_cart" type="submit" name="submit" value="">
+						<a href="#" id="cart">My Cart
+						<i class="fas fa-cart-arrow-down"></i></a>
+					</button>
+					<div id="cart-added-item" class="hide">
+						<div id="text-item">
+							<p id="text-item-p"></p>
+						</div>
+					</div>
+					<div id="cart-modal" class="hide">
+						<div id="cart-modal-content">
+							<div id="naslov-cart" class="d-flex justify-content-between">
+								<h2 class="naslov-cart-h2">Your items:</h2>
+								<span class="close-contact d-flex align-items-center
+						">&times;</span>
+								
+							</div>
+							<div id="divider-hr">
+								<hr/>
+							</div>
+							
+							<div id="products-items">
+								
+							</div>
+							<div id="total-price"></div>
+							<div id="clear-button"><button class='btn-clear-cart'>Clear cart</button></div>
+						</div>
+						<div id="cart-delivery-info" class="d-flex justify-content-center flex-column">
+							<div id="naslov">
+								<h2>Delivery info:</h2>
+							</div>
+							<div id="delivery-info">
+								<form action="#" method="post" id="form-delivery">
+									<div class="row contact_left_grid">
+										<div class="col-md-12 ">
+											<div class="form-control col-md-10">
+												<input type="text" id="fName-del" required="" autocomplete="off">
+												
+												<label>
+													<span style="transition-delay:0ms">F</span><span style="transition-delay:50ms">u</span><span style="transition-delay:100ms">l</span><span style="transition-delay:150ms">l</span><span style="transition-delay:200ms">&nbsp;n</span><span style="transition-delay:250ms">a</span><span style="transition-delay:300ms">m</span><span style="transition-delay:350ms">e</span>
+												</label>
+												<p class="hide"></p>
+												
+											</div>
+											<div class="form-control col-md-10">
+												<input type="text" id="address-del" required="" autocomplete="off">
+												<label>
+													<span style="transition-delay:0ms">A</span><span style="transition-delay:50ms">d</span><span style="transition-delay:100ms">d</span><span style="transition-delay:150ms">r</span><span style="transition-delay:200ms">e</span><span style="transition-delay:250ms">s</span><span style="transition-delay:300ms">s</span>
+												</label>
+												<p class="hide"></p>
+											</div>
+											<div class="form-control col-md-10">
+												<input type="text" required="" id="phone-del" autocomplete="off">
+
+												<label>
+													<span style="transition-delay:0ms">P</span><span style="transition-delay:50ms">h</span><span style="transition-delay:100ms">o</span><span style="transition-delay:150ms">n</span><span style="transition-delay:200ms">e</span><span style="transition-delay:250ms">&nbsp;n</span><span style="transition-delay:300ms">u</span><span style="transition-delay:350ms">m</span><span style="transition-delay:400ms">b</span><span style="transition-delay:450ms">e</span><span style="transition-delay:500ms">r</span>
+												</label>
+												<p class="hide"></p>
+											</div>
+											<div class="form-control col-md-10">
+												<input type="text" required="" id="card-del" autocomplete="off">
+												<label>
+													<span style="transition-delay:0ms">C</span><span style="transition-delay:50ms">a</span><span style="transition-delay:100ms">r</span><span style="transition-delay:150ms">d</span><span style="transition-delay:250ms">&nbsp;n</span><span style="transition-delay:300ms">u</span><span style="transition-delay:350ms">m</span><span style="transition-delay:400ms">b</span><span style="transition-delay:450ms">e</span><span style="transition-delay:500ms">r</span>
+												</label>
+												<p class="hide"></p>
+											</div>
+											<button id="delivery-btn">
+												Submit
+											</button>
+										</div>
+										
+										
+									</div>
+								
+							</div>
+						</div>
+								
+					</div>
+					<div id="myModal" class="hide">
+						<div class="myModal-content text-center d-flex flex-column-reverse">
+							
+							<p class="modal-delivery-message"></p>
+							<div id="close-form-delivery" class="d-flex justify-content-end">
+								<span class="close-form-delivery d-flex
+								">&times;</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<label class="top-log mx-auto"></label>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light top-header mb-2">
+
+				<button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				    aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon">
+						
+					</span>
+				</button>
+
+				<div class="collapse navbar-collapse navigation" id="navbarSupportedContent">
+					<!--DYNAMIC NAVIGATION HERE-->
+				</div>
+				
+			</nav>
+		</header>
+    </div>
+		<!-- banner -->
+		<div class="banner_inner">
+			<div class="services-breadcrumb">
+				<div class="inner_breadcrumb">
+
+					<ul class="short">
+						<li>
+							<a href="index.html">Home</a>
+							<i>|</i>
+						</li>
+						<li>Shop</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<!--//banner -->
+		<!--/shop-->
+		<section class="banner-bottom-wthreelayouts py-lg-5 py-3">
+			<div class="container-fluid">
+				<div class="inner-sec-shop px-lg-4 px-3">
+					<h3 class="tittle-w3layouts my-lg-4 mt-3">New Arrivals for you </h3>
+					<div class="row">
+						<!-- product left -->
+						<div class="side-bar col-lg-3">
+							<div class="search-hotel">
+								<h3 class="agileits-sear-head">Search Here..</h3>
+								<div id="form-search" class="d-flex">
+									<form action="#" method="post">
+										<input class="form-control" type="search" name="search" id="search" placeholder="Search here..." required="">
+											
+											
+										</form>
+										<button class="btn1 btnSearch">
+											<i class="fas fa-search"></i>
+									</button>
+									
+								</div>
+								
+							</div>
+							<!-- SORT -->
+							<div class="sort">
+								<h3 class="agileits-sear-head">Sorting</h3>
+								<select id="price-sort" class="form-select">
+									<option value="0">Choose</option>
+									<option value="nameasc">Name ASC</option>
+									<option value="namedesc">Name DESC</option>
+									<option value="priceasc">Price ASC</option>
+									<option value="pricedesc">Price DESC</option>
+									<option value="popasc">Popularity ASC</option>
+									<option value="popdesc">Popularity DESC</option>
+								</select>
+							</div>
+							
+							<div class="left-side">
+								<h3 class="agileits-sear-head">Brand</h3>
+								<ul id="brands">
+									
+									<!-- DYNAMIC CHECKBOXES HERE-->
+
+								</ul>
+							</div>
+							
+							<div class="left-side">
+								<h3 class="agileits-sear-head">Model</h3>
+								<ul id="models">
+									<!-- DYNAMIC CHECKBOXES HERE-->
+								</ul>
+							</div>
+							
+							
+							
+						</div>
+						
+						<div class="left-ads-display col-lg-9">
+							<div class="wrapper_top_shop">
+								
+								<!-- DYNAMIC PRODUCTS HERE -->
+								
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--footer -->
+		<footer class="py-lg-5 py-3">
+			<div class="container-fluid px-lg-5 px-3">
+				<div class="row footer-top-w3layouts justify-content-around">
+					<div class="col-lg-3 footer-grid-w3ls">
+						<div class="footer-title">
+							<h3>About Us</h3>
+						</div>
+						<div class="footer-text">
+							<p>Goggles factory is the best shop for your glasses, we can provide whichever model or brand you like!</p>
+							<ul class="footer-social text-left mt-lg-4 mt-3">
+								<li class="mx-2">
+									<a href="facebook.com" target="_blank">
+										<span class="fab fa-facebook-f"></span>
+									</a>
+								</li>
+								<li class="mx-2">
+									<a href="twitter.com" target="_blank">
+										<span class="fab fa-twitter"></span>
+									</a>
+								</li>
+								<li class="mx-2">
+									<a href="google.com" target="_blank">
+										<span class="fab fa-google-plus-g"></span>
+									</a>
+								</li>
+								<li class="mx-2">
+									<a href="linkedin.com" target="_blank">
+										<span class="fab fa-linkedin-in"></span>
+									</a>
+								</li>
+								<li class="mx-2">
+									<a href="instagram.com" target="_blank">
+										<span class="fab fa-instagram"></span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 footer-grid-w3ls">
+						<div class="footer-title">
+							<h3>Get in touch</h3>
+						</div>
+						<div class="contact-info">
+							<h4>Location :</h4>
+							<p>Belgrade, Mije Kovacevica 6b</p>
+							<div class="phone">
+								<h4>Contact :</h4>
+								<p>Phone : +381 616996699</p>
+								<p>Email :
+									<a href="mailto:info@goggle.com">info@google.com</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 footer-grid-w3ls">
+						<div class="footer-title">
+							<h3>Quick Links</h3>
+						</div>
+						<ul class="links">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="about.html">About</a>
+							</li>	
+							<li>
+								<a href="shop.html">Shop</a>
+							</li>
+							<li>
+								<a href="contact.html">Contact Us</a>
+							</li>
+							<li>
+								<a href="author.html">Author</a>
+							</li>
+							<li>
+								<a href="web2 dokumentacija.pdf" target="_blank">DOCUMENTATION</a>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+				<div class="copyright-w3layouts mt-4">
+					<p class="copy-right text-center ">&copy; 2023 Goggles. All Rights Reserved | Design by
+						<a href="https://jovanovic.netlify.app/" target="_blank"> Mihajlo Jovanovic </a>
+					</p>
+				</div>
+			</div>
+		</footer>
+		<!-- //footer -->
+
+		<!--jQuery-->
+		<script src="js/jquery-2.2.3.min.js"></script>
+		<script src="js/move-top.js"></script>
+    	<script src="js/easing.js"></script>
+
+		<script src="js/main.js"></script>
+		<script src="js/bootstrap.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,838 @@
+[
+    {
+        "id" : 1,
+        "image" : "../images/s1.jpg",
+        "name" : "Farenheit Grey",
+        "price" : {
+            "oldPrice" : null,
+            "newPrice" : 475.00
+        },
+        "review" : 4,
+        "brandId" : 1,
+        "modelId" : 1,
+        "flairId" : 1,
+        "popularity" : 2,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "59mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "16mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "145mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Plastic"
+            },
+            {
+                "name" : "Color",
+                "value" : "Black"
+            }
+        ]
+    },
+
+    {
+        "id" : 2,
+        "image" : "../images/s2.jpg",
+        "name" : "Opium Grey",
+        "price" : {
+            "oldPrice": 325.00,
+            "newPrice": 300.00
+        },
+        "review" : 3,
+        "brandId" : 2,
+        "modelId" : 1,
+        "flairId" : 2,
+        "popularity" : 1,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "60mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "20mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "151mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Plastic"
+            },
+            {
+                "name" : "Color",
+                "value" : "Red and black"
+            }
+        ]
+    },
+
+    {
+        "id" : 3,
+        "image" : "../images/s3.jpg",
+        "name" : "Kenneth Cole",
+        "price" : {
+            "oldPrice" : null,
+            "newPrice" : 525.00
+        },
+        "review" : 5,
+        "brandId" : 3,
+        "modelId" : 5,
+        "flairId" : 3,
+        "popularity" : 5,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "57mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "21mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "149mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Metal"
+            },
+            {
+                "name" : "Color",
+                "value" : "Grey"
+            }
+        ]
+    },
+
+    {
+        "id" : 4,
+        "image" : "../images/s4.jpg",
+        "name" : "Farenheit Oval",
+        "price" : {
+            "oldPrice" : null,
+            "newPrice" : 375.00
+        },
+        "review" : 2,
+        "brandId" : 1,
+        "modelId" : 2,
+        "flairId" : 1,
+        "popularity" : 4,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "60mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "16mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "143mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Plastic"
+            },
+            {
+                "name" : "Color",
+                "value" : "Red"
+            }
+        ]
+    },
+
+    {
+        "id" : 5,
+        "image" : "../images/m1.jpg",
+        "name" : "Aislin Wayfarer",
+        "price" : {
+            "oldPrice" : 775.00,
+            "newPrice" : 625.00
+        },
+        "review" : 4,
+        "brandId" : 4,
+        "modelId" : 3,
+        "flairId" : 2,
+        "popularity" : 3,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "63mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "22mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "155mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Plastic and metal"
+            },
+            {
+                "name" : "Color",
+                "value" : "Black and grey"
+            }
+        ]
+    },
+
+    {
+        "id" : 6,
+        "image" : "../images/m2.jpg",
+        "name" : "Armani Round",
+        "price" : {
+            "oldPrice" : 725.00,
+            "newPrice" : 650.00
+        },
+        "review" : 5,
+        "brandId" : 5,
+        "modelId" : 4,
+        "flairId" : 2,
+        "popularity" : 5,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "62mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "20mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "151mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Plastic"
+            },
+            {
+                "name" : "Color",
+                "value" : "Blue"
+            }
+        ]
+    },
+
+    {
+        "id" : 7,
+        "image" : "../images/m3.jpg",
+        "name" : "Farenheit Wayfarer",
+        "price" : {
+            "oldPrice" : null,
+            "newPrice" : 450.00
+        },
+        "review" : 4,
+        "brandId" : 1,
+        "modelId" : 3,
+        "flairId" : 3,
+        "popularity" : 4,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "60mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "19mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "153mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Plastic and metal"
+            },
+            {
+                "name" : "Color",
+                "value" : "Black and orange"
+            }
+        ]
+    },
+
+    {
+        "id" : 8,
+        "image" : "../images/m4.jpg",
+        "name" : "Fossil Wayfarer",
+        "price" : {
+            "oldPrice" : 1000.00,
+            "newPrice" : 850.00
+        },
+        "review" : 5,
+        "brandId" : 6,
+        "modelId" : 3,
+        "flairId" : 2,
+        "popularity" : 5,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "56mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "18mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "146mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Plastic and metal"
+            },
+            {
+                "name" : "Color",
+                "value" : "Black and yellow"
+            }
+        ]
+    },
+
+    {
+        "id" : 9,
+        "image" : "../images/s5.jpg",
+        "name" : "Fastrack Aviator",
+        "price" : {
+            "oldPrice" : null,
+            "newPrice" : 300.00
+        },
+        "review" : 3,
+        "brandId" : 7,
+        "modelId" : 5,
+        "flairId" : 1,
+        "popularity" : 3,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "59mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "19mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "150mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Wood"
+            },
+            {
+                "name" : "Color",
+                "value" : "Brown"
+            }
+        ]
+    },
+
+    {
+        "id" : 10,
+        "image" : "../images/s6.jpg",
+        "name" : "Fastrack Aviator",
+        "price" : {
+            "oldPrice" : 350.00,
+            "newPrice" : 300.00
+        },
+        "review" : 4,
+        "brandId" : 7,
+        "modelId" : 5,
+        "flairId" : 2,
+        "popularity" : 4,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "58mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "22mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "153mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Metal"
+            },
+            {
+                "name" : "Color",
+                "value" : "Grey"
+            }
+        ]
+    },
+
+    {
+        "id" : 11,
+        "image" : "../images/s7.jpg",
+        "name" : "Kenneth Cole",
+        "price" : {
+            "oldPrice" : 425.00,
+            "newPrice" : 400.00
+        },
+        "review" : 4,
+        "brandId" : 3,
+        "modelId" : 5,
+        "flairId" : 2,
+        "popularity" : 1,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "60mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "23mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "155mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Metal"
+            },
+            {
+                "name" : "Color",
+                "value" : "Black"
+            }
+        ]
+    },
+
+    {
+        "id" : 12,
+        "image" : "../images/s8.jpg",
+        "name" : "Opium Oval",
+        "price" : {
+            "oldPrice" : null,
+            "newPrice" : 280.00
+        },
+        "review" : 2,
+        "brandId" : 2,
+        "modelId" : 2,
+        "flairId" : 1,
+        "popularity" : 1,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "55mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "17mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "153mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Plastic"
+            },
+            {
+                "name" : "Color",
+                "value" : "Black"
+            }
+        ]
+    },
+
+    {
+        "id" : 13,
+        "image" : "../images/s9.jpg",
+        "name" : "Fossil Aviator",
+        "price" : {
+            "oldPrice" : null,
+            "newPrice" : 360.00
+        },
+        "review" : 4,
+        "brandId" : 6,
+        "modelId" : 5,
+        "flairId" : 3,
+        "popularity" : 5,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "58mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "19mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "149mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Plastic"
+            },
+            {
+                "name" : "Color",
+                "value" : "Red"
+            }
+        ]
+    },
+
+    {
+        "id" : 14,
+        "image" : "../images/s10.jpg",
+        "name" : "Aislin Aviator",
+        "price" : {
+            "oldPrice" : null,
+            "newPrice" : 420.00
+        },
+        "review" : 4,
+        "brandId" : 4,
+        "modelId" : 5,
+        "flairId" : 1,
+        "popularity" : 2,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "59mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "18mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "151mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Plastic"
+            },
+            {
+                "name" : "Color",
+                "value" : "Green"
+            }
+        ]
+    },
+
+    {
+        "id" : 15,
+        "image" : "../images/s11.jpg",
+        "name" : "Armani Aviator",
+        "price" : {
+            "oldPrice" : null,
+            "newPrice" : 510.00
+        },
+        "review" : 5,
+        "brandId" : 5,
+        "modelId" : 5,
+        "flairId" : 3,
+        "popularity" : 4,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "58mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "20mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "150mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Plastic"
+            },
+            {
+                "name" : "Color",
+                "value" : "Black"
+            }
+        ]
+    },
+
+    {
+        "id" : 16,
+        "image" : "../images/s12.jpg",
+        "name" : "Armani Aviator",
+        "price" : {
+            "oldPrice" : 500.00,
+            "newPrice" : 475.00
+        },
+        "review" : 4,
+        "brandId" : 5,
+        "modelId" : 5,
+        "flairId" : 2,
+        "popularity" : 3,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "59mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "21mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "154mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Plastic"
+            },
+            {
+                "name" : "Color",
+                "value" : "Black"
+            }
+        ]
+    },
+
+    {
+        "id" : 17,
+        "image" : "../images/s13.jpg",
+        "name" : "Aislin Round",
+        "price" : {
+            "oldPrice" : 520.00,
+            "newPrice" : 455.00
+        },
+        "review" : 3,
+        "brandId" : 4,
+        "modelId" : 4,
+        "flairId" : 2,
+        "popularity" : 2,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "60mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "22mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "152mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Metal"
+            },
+            {
+                "name" : "Color",
+                "value" : "Gold"
+            }
+        ]
+    },
+    {
+        "id" : 18,
+        "image" : "../images/s14.jpg",
+        "name" : "Fossil Wayfarer",
+        "price" : {
+            "oldPrice" : null,
+            "newPrice" : 410.00
+        },
+        "review" : 4,
+        "brandId" : 6,
+        "modelId" : 3,
+        "flairId" : 1,
+        "popularity" : 4,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "59mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "20mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "148mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Plastic"
+            },
+            {
+                "name" : "Color",
+                "value" : "Black"
+            }
+        ]
+    },
+    {
+        "id" : 19,
+        "image" : "../images/s15.jpg",
+        "name" : "Fastrack Round",
+        "price" : {
+            "oldPrice" : 320.00,
+            "newPrice" : 300.00
+        },
+        "review" : 4,
+        "brandId" : 7,
+        "modelId" : 4,
+        "flairId" : 2,
+        "popularity" : 5,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "60mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "21mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "149mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Plastic"
+            },
+            {
+                "name" : "Color",
+                "value" : "Grey"
+            }
+        ]
+    },
+    {
+        "id" : 20,
+        "image" : "../images/s16.jpg",
+        "name" : "Opium Oval",
+        "price" : {
+            "oldPrice" : null,
+            "newPrice" : 290.00
+        },
+        "review" : 5,
+        "brandId" : 2,
+        "modelId" : 2,
+        "flairId" : 3,
+        "popularity" : 5,
+        "specifications" : [
+            {
+                "name" : "Frame size",
+                "value" : [
+                    {
+                        "name" : "Lens width",
+                        "size" : "64mm"
+                    },
+                    {
+                        "name" : "Nose bridge",
+                        "size" : "20mm"
+                    },
+                    {
+                        "name" : "Temple length",
+                        "size" : "154mm"
+                    }
+                ]
+            },
+            {
+                "name" : "Material",
+                "value" : "Metal"
+            },
+            {
+                "name" : "Color",
+                "value" : "Black"
+            }
+        ]
+    }
+]

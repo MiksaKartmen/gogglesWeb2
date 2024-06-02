@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "class":"active",
+        "h3":"Men&#39;s",
+        "span":"Cool summer sale 50% off"
+    },
+    {
+        "id":2,
+        "class":"item2",
+        "h3":"Women&#39;s",
+        "span":"Want to Look Your Best"
+    },
+    {
+        "id":3,
+        "class":"item3",
+        "h3":"Men&#39;s",
+        "span":"Cool summer sale 50% off"
+    },
+    {
+        "id":2,
+        "class":"item4",
+        "h3":"Women&#39;s",
+        "span":"Want to Look Your Best"
+    }
+]

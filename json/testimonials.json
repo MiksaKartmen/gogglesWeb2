@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "name":"Kristijan",
+        "country":"Serbia",
+        "description":"I am very happy with my new glasses from Goggles Factory. From now on I will buy all my glasses here!"
+    },
+    {
+        "id":1,
+        "name":"Esmeralda",
+        "country":"Mexico",
+        "description":"Everything was like on the pictures, I have nothing bad to say about Goggles Factory"
+    },
+    {
+        "id":1,
+        "name":"Rick Ross",
+        "country":"United States",
+        "description":"Quality is on point, the shipment was very quick, I even got a free case for my glasses!"
+    }
+]

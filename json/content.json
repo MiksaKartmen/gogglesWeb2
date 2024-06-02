@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "title":"Genuine Product",
+        "icon":"fas fa-gift",
+        "description":"Everyday we are trying to improve the quality of our products."
+    },
+    {
+        "id":2,
+        "title":"Secure Products",
+        "icon":"fas fa-shield-alt",
+        "description":"If you buy our product, dont't worry, everything will be safe."
+    },
+    {
+        "id":3,
+        "title":"Cash on Delivery",
+        "icon":"fas fa-dollar-sign",
+        "description":"We offer you the ability to choose how you want to pay."
+    },
+    {
+        "id":4,
+        "title":"Easy Delivery",
+        "icon":"fas fa-truck",
+        "description":"Our delivery team is efficient and fast, the product will be on your address in no time."
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "id" : 1,
+        "name" : "Farenheit"
+    },
+    {
+        "id" : 2,
+        "name" : "Opium"
+    },
+    {
+        "id" : 3,
+        "name" : "Kenneth Cole"
+    },
+    {
+        "id" : 4,
+        "name" : "Aislin"
+    },
+    {
+        "id" : 5,
+        "name" : "Armani"
+    },
+    {
+        "id" : 6,
+        "name" : "Fossil"
+    },
+    {
+        "id" : 7,
+        "name" : "Fastrack"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "image":"images/team1.jpg",
+        "name":"Michael Jordan",
+        "description": "I enjoyed the experience with Goggles Factory, I recomend them."
+    },
+    {
+        "id":2,
+        "image":"images/team2.jpg",
+        "name":"James Harden",
+        "description": "We had ups and downs but in the end we got an agreement."
+    },
+    {
+        "id":3,
+        "image":"images/team3.jpg",
+        "name":"Serena Williams",
+        "description": "I have only good experience working with them."
+    },
+    {
+        "id":4,
+        "image":"images/team4.jpg",
+        "name":"Nemanja Bjelica",
+        "description": "Great experience, I would recomend them all the time!"
+    }
+]

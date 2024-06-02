@@ -1,0 +1,22 @@
+[
+    {
+        "href": "index.html",
+        "name": "Home"
+    },
+    {
+        "href": "about.html",
+        "name": "About"
+    },
+    {
+        "href": "shop.html",
+        "name": "Shop"
+    },
+    {
+        "href": "contact.html",
+        "name": "Contact"
+    },
+    {
+        "href": "author.html",
+        "name": "Author"
+    }
+]

@@ -1,0 +1,381 @@
+
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>Goggles Ecommerce Category Bootstrap responsive Web Template | Contact :: w3layouts</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="men eyewear, women eyewear, glasses, Goggles, Ray-Ban, sunglasses"/>
+	<meta name="description" content="Welcome to Goggles, the best shop for eyewear!" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="css/login_overlay.css" rel='stylesheet' type='text/css' />
+	<link href="css/style6.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="css/shop.css" type="text/css" />
+	<link href="css/contact.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link href="css/fontawesome-all.css" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+	
+</head>
+
+
+
+<body>
+	<div id="loader-wrapper">
+		<img src="images/preloaderapp.gif" alt="Loading...">
+		<h2>Loading Glasses...</h2>
+	</div>
+	<div class="banner-top container-fluid" id="home">
+		<!-- header -->
+		<header>
+			<div class="row">
+				<div class="col-md-3 top-info text-left mt-lg-4">
+					<h6>Need Help</h6>
+					<ul>
+						<li>
+							<i class="fas fa-phone"></i> Call</li>
+						<li class="number-phone mt-3">+381 616996699</li>
+					</ul>
+				</div>
+				<div class="col-md-6 logo-w3layouts text-center">
+					<h1 class="logo-w3layouts">
+						<a class="navbar-brand" href="index.html">
+							Goggles </a>
+					</h1>
+				</div>
+
+				<div class="col-md-3 top-info-cart text-right mt-lg-4">
+					<button class="top_googles_cart" type="submit" name="submit" value="">
+						<a href="#" id="cart">My Cart
+						<i class="fas fa-cart-arrow-down"></i></a>
+					</button>
+					<div id="cart-added-item" class="hide">
+						<div id="text-item">
+							<p id="text-item-p"></p>
+						</div>
+					</div>
+					<div id="cart-modal" class="hide">
+						<div id="cart-modal-content">
+							<div id="naslov-cart" class="d-flex justify-content-between">
+								<h2 class="naslov-cart-h2">Your items:</h2>
+								<span class="close-contact d-flex align-items-center
+						">&times;</span>
+								
+							</div>
+							<div id="divider-hr">
+								<hr/>
+							</div>
+							
+							<div id="products-items">
+								
+							</div>
+							<div id="total-price"></div>
+							<div id="clear-button"><button class='btn-clear-cart'>Clear cart</button></div>
+						</div>
+						<div id="cart-delivery-info" class="d-flex justify-content-center flex-column">
+							<div id="naslov">
+								<h2>Delivery info:</h2>
+							</div>
+							<div id="delivery-info">
+								<form action="#" method="post" id="form-delivery">
+									<div class="row contact_left_grid">
+										<div class="col-md-12 ">
+											<div class="form-control col-md-10">
+												<input type="text" id="fName-del" required="" autocomplete="off">
+												
+												<label>
+													<span style="transition-delay:0ms">F</span><span style="transition-delay:50ms">u</span><span style="transition-delay:100ms">l</span><span style="transition-delay:150ms">l</span><span style="transition-delay:200ms">&nbsp;n</span><span style="transition-delay:250ms">a</span><span style="transition-delay:300ms">m</span><span style="transition-delay:350ms">e</span>
+												</label>
+												<p class="hide"></p>
+												
+											</div>
+											<div class="form-control col-md-10">
+												<input type="text" id="address-del" required="" autocomplete="off">
+												<label>
+													<span style="transition-delay:0ms">A</span><span style="transition-delay:50ms">d</span><span style="transition-delay:100ms">d</span><span style="transition-delay:150ms">r</span><span style="transition-delay:200ms">e</span><span style="transition-delay:250ms">s</span><span style="transition-delay:300ms">s</span>
+												</label>
+												<p class="hide"></p>
+											</div>
+											<div class="form-control col-md-10">
+												<input type="text" required="" id="phone-del" autocomplete="off">
+
+												<label>
+													<span style="transition-delay:0ms">P</span><span style="transition-delay:50ms">h</span><span style="transition-delay:100ms">o</span><span style="transition-delay:150ms">n</span><span style="transition-delay:200ms">e</span><span style="transition-delay:250ms">&nbsp;n</span><span style="transition-delay:300ms">u</span><span style="transition-delay:350ms">m</span><span style="transition-delay:400ms">b</span><span style="transition-delay:450ms">e</span><span style="transition-delay:500ms">r</span>
+												</label>
+												<p class="hide"></p>
+											</div>
+											<div class="form-control col-md-10">
+												<input type="text" required="" id="card-del" autocomplete="off">
+												<label>
+													<span style="transition-delay:0ms">C</span><span style="transition-delay:50ms">a</span><span style="transition-delay:100ms">r</span><span style="transition-delay:150ms">d</span><span style="transition-delay:250ms">&nbsp;n</span><span style="transition-delay:300ms">u</span><span style="transition-delay:350ms">m</span><span style="transition-delay:400ms">b</span><span style="transition-delay:450ms">e</span><span style="transition-delay:500ms">r</span>
+												</label>
+												<p class="hide"></p>
+											</div>
+											<button id="delivery-btn">
+												Submit
+											</button>
+										</div>
+										
+										
+									</div>
+								</form>
+							</div>
+						</div>
+								
+					</div>
+				</div>
+			</div>
+			
+			<label class="top-log mx-auto"></label>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light top-header mb-2">
+
+				<button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				    aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon">
+						
+					</span>
+				</button>
+
+				<div class="collapse navbar-collapse navigation" id="navbarSupportedContent">
+					<!--DYNAMIC NAVIGATION HERE-->
+				</div>
+				
+			</nav>
+		</header>
+		<!-- banner -->
+		<div class="banner_inner">
+			<div class="services-breadcrumb">
+				<div class="inner_breadcrumb">
+
+					<ul class="short">
+						<li>
+							<a href="index.html">Home</a>
+							<i>|</i>
+						</li>
+						<li>Contact Us</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<!--//banner -->
+	</div>
+	<!--// header_top -->
+	<!-- top Products -->
+	<section class="banner-bottom-wthreelayouts py-lg-5 py-3">
+		<div class="container">
+			<h3 class="tittle-w3layouts text-center my-lg-4 my-4">Contact</h3>
+			<div class="inner_sec">
+				<p class="sub text-center mb-lg-5 mb-3">We love to discuss your idea</p>
+				<div class="address row">
+
+					<div class="col-lg-4 address-grid">
+						<div class="row address-info">
+							<div class="col-md-3 address-left text-center">
+								<i class="far fa-map"></i>
+							</div>
+							<div class="col-md-9 address-right text-left">
+								<h6>Address</h6>
+								<p> Belgrade, Mije Kovacevica 7b
+
+								</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-lg-4 address-grid">
+						<div class="row address-info">
+							<div class="col-md-3 address-left text-center">
+								<i class="far fa-envelope"></i>
+							</div>
+							<div class="col-md-9 address-right text-left">
+								<h6>Email</h6>
+								<p>Email :
+									<a href="mailto:example@email.com"> info@google.com</a>
+
+								</p>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-lg-4 address-grid">
+						<div class="row address-info">
+							<div class="col-md-3 address-left text-center">
+								<i class="fas fa-mobile-alt"></i>
+							</div>
+							<div class="col-md-9 address-right text-left">
+								<h6>Phone</h6>
+								<p>+381 616996699</p>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="contact_grid_right">
+					<div id="myModal-contact" class="hide">
+						<div class="myModal-content-contact text-center">
+							<div id="close" class="d-flex justify-content-end mb-3">
+								<span class="close-contact-form d-flex align-items-center
+								">&times;</span>
+							</div>
+							<p>Thank you for contacting us, we will answer as soon as we can!</p>
+						</div>
+					</div>
+						
+					<div id="form-wrap">
+						<form action="#" method="post" id="form-contact">
+							<div class="row contact_left_grid">
+								<div class="col-md-6 con-left">
+									<div class="form-group col-md-10">
+										<label class="my-2">Name</label>
+										<input class="form-control" type="text" name="Name" id="name" placeholder="Ex: Mihajlo Jovanovic" >
+										<p class="mt-1 hide p-danger form-alert text-start"></p>
+									</div>
+									<div class="form-group col-md-10">
+										<label>Email</label>
+										<input class="form-control" type="email" name="Email" id="mail" placeholder="Ex: mihajlo@gmail.com" >
+										<p class="hide p-danger form-alert text-start"></p>
+									</div>
+									<div class="form-group col-md-10">
+										<label class="my-2">Subject</label>
+										<select  class="form-select" name="ddlSubject" id="ddlSubject">
+											<option value="0">Choose</option>
+											<option value="1">Complaint</option>
+											<option value="2">Feedback</option>
+											<option value="3">Other</option>
+										</select>
+										<p class="hide p-danger form-alert text-start"></p>
+									</div>	
+								</div>
+								<div class="col-md-6 con-right">
+									<div class="form-group">
+										<label>Message</label>
+										<textarea id="textarea" placeholder="Your message" ></textarea>
+									</div>
+									<div class="form-group mb-3">
+										<input type="checkbox" name="chbAgree" id="chbAgree">
+										<label for="chbAgree">I agree with the terms and conditions</label>
+										<p class="hide p-danger form-alert text-start"></p>
+									</div>
+									
+									<button id="btnSubmit" class="form-control"  value="Submit">Submit</button>
+	
+								</div>
+							</div>
+						</form>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="contact-map">
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.374838831995!2d20.48741411549836!3d44.81392777909854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a941d346a9f%3A0x28e7b5f4f0de5410!2z0KHRgtGD0LTQtdC90YLRgdC60Lgt0LTQvtC8LdCa0LDRgNCw0LHRg9GA0LzQsA!5e0!3m2!1ssr!2srs!4v1676900498156!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+
+	<!--footer -->
+	<footer class="py-lg-5 py-3">
+		<div class="container-fluid px-lg-5 px-3">
+			<div class="row footer-top-w3layouts justify-content-around">
+				<div class="col-lg-3 footer-grid-w3ls">
+					<div class="footer-title">
+						<h3>About Us</h3>
+					</div>
+					<div class="footer-text">
+						<p>Goggles factory is the best shop for your glasses, we can provide whichever model or brand you like!</p>
+						<ul class="footer-social text-left mt-lg-4 mt-3">
+							<li class="mx-2">
+								<a href="facebook.com" target="_blank">
+									<span class="fab fa-facebook-f"></span>
+								</a>
+							</li>
+							<li class="mx-2">
+								<a href="twitter.com" target="_blank">
+									<span class="fab fa-twitter"></span>
+								</a>
+							</li>
+							<li class="mx-2">
+								<a href="google.com" target="_blank">
+									<span class="fab fa-google-plus-g"></span>
+								</a>
+							</li>
+							<li class="mx-2">
+								<a href="linkedin.com" target="_blank">
+									<span class="fab fa-linkedin-in"></span>
+								</a>
+							</li>
+							<li class="mx-2">
+								<a href="instagram.com" target="_blank">
+									<span class="fab fa-instagram"></span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 footer-grid-w3ls">
+					<div class="footer-title">
+						<h3>Get in touch</h3>
+					</div>
+					<div class="contact-info">
+						<h4>Location :</h4>
+						<p>Belgrade, Mije Kovacevica 7b</p>
+						<div class="phone">
+							<h4>Contact :</h4>
+							<p>Phone : +381 616996699</p>
+							<p>Email :
+								<a href="mailto:info@goggle.com">info@google.com</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 footer-grid-w3ls">
+					<div class="footer-title">
+						<h3>Quick Links</h3>
+					</div>
+					<ul class="links">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="about.html">About</a>
+						</li>	
+						<li>
+							<a href="shop.html">Shop</a>
+						</li>
+						<li>
+							<a href="contact.html">Contact Us</a>
+						</li>
+						<li>
+							<a href="author.html">Author</a>
+						</li>
+						<li>
+							<a href="web2 dokumentacija.pdf" target="_blank">DOCUMENTATION</a>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+			<div class="copyright-w3layouts mt-4">
+				<p class="copy-right text-center ">&copy; 2023 Goggles. All Rights Reserved | Design by
+					<a href="https://jovanovic.netlify.app/" target="_blank"> Mihajlo Jovanovic </a>
+				</p>
+			</div>
+		</div>
+	</footer>
+	<!-- //footer -->
+
+	<!--jQuery-->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	
+	<script src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<!-- js file -->
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+[
+    {
+        "id" : 1,
+        "name" : "Grey"
+    },
+    {
+        "id" : 2,
+        "name" : "Oval"
+    },
+    {
+        "id" : 3,
+        "name" : "Wayfarer"
+    },
+    {
+        "id" : 4,
+        "name" : "Round"
+    },
+    {
+        "id" : 5,
+        "name" : "Aviator"
+    }
+]

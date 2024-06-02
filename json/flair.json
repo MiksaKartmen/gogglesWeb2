@@ -1,0 +1,17 @@
+[
+    {
+        "id" : 1,
+        "name" : "New",
+        "class" : "newProduct"
+    },
+    {
+        "id" : 2,
+        "name" : "Discounted",
+        "class" : "discountedProduct"
+    },
+    {
+        "id" : 3,
+        "name" : "Popular",
+        "class" : "popularProduct"
+    }
+]
