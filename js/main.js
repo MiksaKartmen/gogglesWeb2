@@ -3,6 +3,7 @@ var url = document.location.pathname;
 console.log(url)
 var errors = 0;
 const BASEURL = "json/";
+const BASEURLPAGE = "/gogglesWeb2/";
 function ajaxCallBack(fileName, result){
     $.ajax({
         url: BASEURL + fileName,
@@ -120,7 +121,7 @@ if(url != "/author.html"){
 //#endregion
 
 
-if(url == "/index.html" || url == "/"){
+if(url == BASEURLPAGE + "/index.html" || url == BASEURLPAGE ){
     
     ajaxCallBack("products.json", function(result){
         randomProductsPrint(result);
@@ -145,7 +146,7 @@ if(url == "/index.html" || url == "/"){
 }
 
 
-if(url == "/shop.html"){
+if(url == BASEURLPAGE + "/shop.html"){
     $(document).on("change", "#price-sort", change);
     $(document).on("change", ".model", change);
     $(document).on("change", ".brand", change);
@@ -187,7 +188,7 @@ if(url == "/shop.html"){
 //#endregion
 }
 
-if(url == "/about.html"){
+if(url == BASEURLPAGE + "/about.html"){
 //#region PARTNERS
     ajaxCallBack("partners.json", function(result){
         partnersPrint(result);
@@ -219,7 +220,7 @@ if(url == "/about.html"){
 
 }
 
-if(url == "/contact.html"){
+if(url == BASEURLPAGE + "/contact.html"){
     btnSubmit = document.querySelector("#btnSubmit");
     btnSubmit.addEventListener("click", formCheck);
     btnSubmit.addEventListener("click", function(event){
