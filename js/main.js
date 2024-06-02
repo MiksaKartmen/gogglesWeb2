@@ -4,6 +4,7 @@ console.log(url)
 var errors = 0;
 const BASEURL = "json/";
 const BASEURLPAGE = "/gogglesWeb2/";
+console.log(BASEURLPAGE + url);
 function ajaxCallBack(fileName, result){
     $.ajax({
         url: BASEURL + fileName,
