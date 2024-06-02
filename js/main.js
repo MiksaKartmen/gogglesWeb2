@@ -349,7 +349,7 @@ function printTable(products){
                     <td class="invert">${counter}</td>
                     <td class="invert-image">
                         <a href="shop.html">
-                            <img src="images/${p.image}" style='height:100px' alt="${p.name}" class="img-responsive">
+                            <img src="${p.image}" style='height:100px' alt="${p.name}" class="img-responsive">
                         </a>
                     </td>
                     <td class="invert">${p.name}</td>
