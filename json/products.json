@@ -1,7 +1,7 @@
 [
     {
         "id" : 1,
-        "image" : "../images/s1.jpg",
+        "image" : "images/s1.jpg",
         "name" : "Farenheit Grey",
         "price" : {
             "oldPrice" : null,
