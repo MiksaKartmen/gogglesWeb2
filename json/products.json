@@ -43,7 +43,7 @@
 
     {
         "id" : 2,
-        "image" : "../images/s2.jpg",
+        "image" : "images/s2.jpg",
         "name" : "Opium Grey",
         "price" : {
             "oldPrice": 325.00,
@@ -85,7 +85,7 @@
 
     {
         "id" : 3,
-        "image" : "../images/s3.jpg",
+        "image" : "images/s3.jpg",
         "name" : "Kenneth Cole",
         "price" : {
             "oldPrice" : null,
@@ -127,7 +127,7 @@
 
     {
         "id" : 4,
-        "image" : "../images/s4.jpg",
+        "image" : "images/s4.jpg",
         "name" : "Farenheit Oval",
         "price" : {
             "oldPrice" : null,
@@ -169,7 +169,7 @@
 
     {
         "id" : 5,
-        "image" : "../images/m1.jpg",
+        "image" : "images/m1.jpg",
         "name" : "Aislin Wayfarer",
         "price" : {
             "oldPrice" : 775.00,
@@ -211,7 +211,7 @@
 
     {
         "id" : 6,
-        "image" : "../images/m2.jpg",
+        "image" : "images/m2.jpg",
         "name" : "Armani Round",
         "price" : {
             "oldPrice" : 725.00,
@@ -253,7 +253,7 @@
 
     {
         "id" : 7,
-        "image" : "../images/m3.jpg",
+        "image" : "images/m3.jpg",
         "name" : "Farenheit Wayfarer",
         "price" : {
             "oldPrice" : null,
@@ -295,7 +295,7 @@
 
     {
         "id" : 8,
-        "image" : "../images/m4.jpg",
+        "image" : "images/m4.jpg",
         "name" : "Fossil Wayfarer",
         "price" : {
             "oldPrice" : 1000.00,
@@ -337,7 +337,7 @@
 
     {
         "id" : 9,
-        "image" : "../images/s5.jpg",
+        "image" : "images/s5.jpg",
         "name" : "Fastrack Aviator",
         "price" : {
             "oldPrice" : null,
@@ -379,7 +379,7 @@
 
     {
         "id" : 10,
-        "image" : "../images/s6.jpg",
+        "image" : "images/s6.jpg",
         "name" : "Fastrack Aviator",
         "price" : {
             "oldPrice" : 350.00,
@@ -421,7 +421,7 @@
 
     {
         "id" : 11,
-        "image" : "../images/s7.jpg",
+        "image" : "images/s7.jpg",
         "name" : "Kenneth Cole",
         "price" : {
             "oldPrice" : 425.00,
@@ -463,7 +463,7 @@
 
     {
         "id" : 12,
-        "image" : "../images/s8.jpg",
+        "image" : "images/s8.jpg",
         "name" : "Opium Oval",
         "price" : {
             "oldPrice" : null,
@@ -505,7 +505,7 @@
 
     {
         "id" : 13,
-        "image" : "../images/s9.jpg",
+        "image" : "images/s9.jpg",
         "name" : "Fossil Aviator",
         "price" : {
             "oldPrice" : null,
@@ -547,7 +547,7 @@
 
     {
         "id" : 14,
-        "image" : "../images/s10.jpg",
+        "image" : "images/s10.jpg",
         "name" : "Aislin Aviator",
         "price" : {
             "oldPrice" : null,
@@ -589,7 +589,7 @@
 
     {
         "id" : 15,
-        "image" : "../images/s11.jpg",
+        "image" : "images/s11.jpg",
         "name" : "Armani Aviator",
         "price" : {
             "oldPrice" : null,
@@ -631,7 +631,7 @@
 
     {
         "id" : 16,
-        "image" : "../images/s12.jpg",
+        "image" : "images/s12.jpg",
         "name" : "Armani Aviator",
         "price" : {
             "oldPrice" : 500.00,
@@ -673,7 +673,7 @@
 
     {
         "id" : 17,
-        "image" : "../images/s13.jpg",
+        "image" : "images/s13.jpg",
         "name" : "Aislin Round",
         "price" : {
             "oldPrice" : 520.00,
@@ -714,7 +714,7 @@
     },
     {
         "id" : 18,
-        "image" : "../images/s14.jpg",
+        "image" : "images/s14.jpg",
         "name" : "Fossil Wayfarer",
         "price" : {
             "oldPrice" : null,
@@ -755,7 +755,7 @@
     },
     {
         "id" : 19,
-        "image" : "../images/s15.jpg",
+        "image" : "images/s15.jpg",
         "name" : "Fastrack Round",
         "price" : {
             "oldPrice" : 320.00,
@@ -796,7 +796,7 @@
     },
     {
         "id" : 20,
-        "image" : "../images/s16.jpg",
+        "image" : "images/s16.jpg",
         "name" : "Opium Oval",
         "price" : {
             "oldPrice" : null,
